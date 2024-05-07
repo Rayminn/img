@@ -70,9 +70,9 @@ function loadStatistical(sdata){
   var loadMoreBtn = `
     <div id="cf-more" class="cf-new-add" onclick="loadNextArticle()"><i class="fas fa-angle-double-down"></i></div>
     <div id="cf-footer" class="cf-new-add">
-     // <span id="cf-version-up" onclick="checkVersion()"></span>
-     // <span class="cf-data-lastupdated">更新于：${sdata.last_updated_time}</span>
-     //  Powered by <a target="_blank" href="https://github.com/Rock-Candy-Tea/hexo-circle-of-friends" target="_blank">FriendCircle</a>
+     <span id="cf-version-up" onclick="checkVersion()"></span>
+     <span class="cf-data-lastupdated">更新于：${sdata.last_updated_time}</span>
+      Powered by <a target="_blank" href="https://github.com/Rock-Candy-Tea/hexo-circle-of-friends" target="_blank">FriendCircle</a>
     </div>
     <div id="cf-overlay" class="cf-new-add" onclick="closeShow()"></div>
     <div id="cf-overshow" class="cf-new-add"></div>
