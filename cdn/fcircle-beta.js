@@ -53,7 +53,7 @@ function loadStatistical(sdata){
         <span class="cf-label">订阅</span>
         <span class="cf-message">${sdata.friends_num}</span>
       </div>
-      <div class="cf-data-active" onclick="changeEgg()">
+      // <div class="cf-data-active" onclick="changeEgg()">
       <div class="cf-data-active">
         <span class="cf-label">活跃</span>
         <span class="cf-message">${sdata.active_num}</span>
