@@ -49,7 +49,7 @@ var fdata = {
     var messageBoard =`
     <div id="cf-state" class="cf-new-add">
       <div class="cf-state-data">
-        <div class="cf-data-friends" onclick="openToShow()">
+        <div class="cf-data-friends">
           <span class="cf-label">订阅</span>
           <span class="cf-message">${sdata.friends_num}</span>
         </div>
