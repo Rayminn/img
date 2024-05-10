@@ -93,7 +93,7 @@ var fdata = {
           <span class="cf-article-floor">${item.floor}</span>
           <div class="cf-article-avatar no-lightbox flink-item-icon">
             <img class="cf-img-avatar avatar" src="${item.avatar}" alt="avatar" onerror="this.src='${fdata.error_img}'; this.onerror = null;">
-            <a onclick="openMeShow(event)" data-link="${item.link}" class="" target="_blank" rel="noopener nofollow" href="javascript:;"><span class="cf-article-author">${item.author}</span></a>
+            <a data-link="${item.link}" class="" target="_blank" rel="noopener nofollow"><span class="cf-article-author">${item.author}</span></a>
             <span class="cf-article-time">
               <span class="cf-time-created" style="${sortNow == 'created' ? '':'display:none'}"><i class="far fa-calendar-alt">发表于</i>${item.created}</span>
               <span class="cf-time-updated" style="${sortNow == 'updated' ? '':'display:none'}"><i class="fas fa-history">更新于</i>${item.updated}</span>
